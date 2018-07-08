@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new 
     time = Time.now 
     
-    resp.write "The time is #{time}"
+    #resp.write "The time is #{time}"
     
     
   if time > 12 
