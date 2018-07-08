@@ -7,10 +7,10 @@ class Application
     resp.write "The time is #{time}"
     
     
-  if time  12 
-    resp.write "Good Morning!"
-  else 
+  if time > 12 
     resp.write "Good Afternoon!"
+  else 
+    resp.write "Good Morning!"
   end 
   resp.finish
 end 
